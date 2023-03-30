@@ -1,0 +1,23 @@
+{
+  "name": "vinilos",
+  "version": "1.0.0",
+  "description": "Vinilo's es un sitio dedicado a ofrecer un catálogo de Discos Vinilos de diferente géneros para los amantes de los sonidos originales y realistas! Encontrarán un catálago de discos de calidad y variedad.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillyRami80/VINILOS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillyRami80/VINILOS/issues"
+  },
+  "homepage": "https://github.com/WillyRami80/VINILOS#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
