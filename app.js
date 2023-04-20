@@ -1,8 +1,12 @@
-const express = require ('express');
+const express = require('express');
 const app = express();
-app.get ('/', (req, res) =>{
-    res.send('¡Hola mundo!');
+
+app.use(express. static ('public'));
+
+app.listen(3000, () => {
+    console.log('Servidor corriendo en el puerto 3000')
+
+})
+app.get('/' , (req, res) => {
+    res.sendFile(__dirname + '/views/home.html')
 });
-app.listen(3000, ()=>
-console.log('Servidor corriendo en puerto 3000')
-);
