@@ -30,6 +30,7 @@ section {
 
 main section article div {
     position: relative;
+    
 }
 
 .producto-img {
@@ -41,6 +42,9 @@ section article div a img {
     width: 100%;
     border-bottom: #ebebeb 2px solid;
 }
+ 
+
+
 
 main section article:hover {
     box-shadow: 0px 0px 8px rgb(100, 100, 100);
